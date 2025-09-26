@@ -29,7 +29,7 @@ async def start(msg: types.Message):
     kb = types.InlineKeyboardMarkup()
     kb.add(types.InlineKeyboardButton(
         text="🎬 Watch Ads",
-        web_app=WebAppInfo(url="https://yourname.netlify.app/monetag.html")  # replace with hosted WebApp
+        web_app=WebAppInfo(url="https://68d6bad04164d67d4ae0f7cd--merry-dasik-4cd1d1.netlify.app/")  # replace with hosted WebApp
     ))
     await msg.answer("👋 Welcome! Earn by watching ads.", reply_markup=kb)
 
